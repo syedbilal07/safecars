@@ -1,0 +1,460 @@
+/*STYLE SHEET */
+.wrap /* STYLING WRAP DIV */
+{   
+	height:2140px;
+	width:1300px;
+	background-color:rgb(255,255,255);
+	margin:0px auto;	
+}
+header /* STYLING HEADER TAG */
+{
+	
+	height:620px;
+	width:100%;
+}
+section /* STYLING SECTION TAG */
+{  
+	width:100%;
+}
+footer /* STYLING FOOTER */
+{  
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height:320px;
+	width:100%;
+	background-color:rgb(186,12,47);
+	float:right;
+	position:relative;
+}
+.global-links-bar /* STYLING MAIN NAVIGATION BAR */
+{
+	height:130px;
+	width:100%;
+	background-color:rgb(186,12,47);
+	position:relative;
+	
+}
+.global-links-bar ul /* STYLING NAVIGATION BAR LIST */
+{
+	width:75%;
+	height:40px;
+	top:40px;
+	bottom:0px;
+	list-style:none;
+	padding:0px;
+	font-size:20px;
+	position:absolute;
+	color:white;
+	margin-left:300px;
+}
+.global-links-bar ul li /* STYLING NAVIGATION BAR LIST ITEMS */
+{
+	float:left;
+	text-align:center;
+	margin:0px;	
+}		
+.global-links-bar-anchor /* STYLING NAVIGATION BAR LIST ANCHORS */
+{   /*Nav Content*/
+	text-decoration:none;
+	color:white;
+	padding:30px;
+	font-family:Arial,Helvetica,sans-serif;
+	text-transform:uppercase;
+}
+.global-links-bar-anchor:hover /* STYLING NAVIGATION BAR LIST ANCHORS ON HOVER EFFECT */
+{
+	color:black;
+	transition-duration:1s;
+	opacity:1;	
+}
+.logo  /* STYLING MAIN LOGO */
+{ 
+	background-repeat:no-repeat;
+	position:absolute;
+	width:245px;
+}
+.header-banner-container /* STYLING HEADER BANNER IMAGE */
+{  
+	
+	background-image:url(../Images/Banner.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:490px;
+	position:relative;	
+}
+#upper-section /* STYLING UPPER SECTION */
+{  
+	
+	top:0px;
+	height:720px;
+	width:100%;
+	background-color:rgb(255,255,255);
+	position:relative;
+}
+.upper-section-main-heading /* STYLING UPPER SECTION MAIN HEADING */
+{ 
+	height:50px;
+	width:100%;
+	position:absolute;
+	background-color:rgb(255,255,255);
+	margin-top:70px;
+}
+.section-heading /* STYLING UPPER SECTION HEADING */
+{ 
+	color:rgb(186,12,47);
+	font-size:18px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	text-decoration:underline;
+	margin-bottom:0px;
+	text-align:center;
+}
+.section-line-1 /* STYLING SEPERATOR 1 */
+{ 
+	height:3px;
+	width:400px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:50px;
+	margin-top:28px;
+	
+}
+.section-line-2 /* STYLING SEPERATOR 2 */
+{ 
+	height:3px;
+	width:400px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:850px;
+	margin-top:28px;	
+}
+.select-company /* STYLING SELECT COMPANY DIV */
+{ 
+	height:350px;
+	width:310px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:10px;
+	margin-top:185px;
+}
+.select-vehicle /* STYLING SELECT VEHICLE DIV */
+{  
+	height:350px;
+	width:310px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:333px;
+	margin-top:185px;
+}
+.choose-plan /* STYLING CHOOSE PLAN DIV */
+{  
+	height:350px;
+	width:310px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:656px;
+	margin-top:185px;
+}
+.see-policies /* STYLING SEE POLICIES DIV */
+{  
+	height:350px;
+	width:310px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:979px;
+	margin-top:185px;
+}
+.how-it-works-heading /* STYLING HOW SITE WORKS HEADING */
+{  
+	
+	color:white;
+	font-size:23px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-top:157px;
+	margin-bottom:0px;
+	text-align:center;
+}
+.how-it-works-paragraph /* STYLING HOW SITE WORKS HEADING PARAGRAPH */
+{
+	width:229px;
+	height:101px;
+	color:white;
+	margin-left:40px;
+	margin-bottom:0px;
+	font-size: 14px;
+	margin-top:38px;
+	font-family:Helvetica;
+	font-weight:bold;
+}
+.how-it-works-image /* STYLING HOW SITE WORKS IMAGES */
+{  
+	margin-left:113px;
+	margin-top:25px;
+	position:absolute;
+}
+.upper-section-heading  /* STYLING SECTION HEADING */
+{
+	height:50px;
+	width:100%;
+	position:absolute;
+	background-color:rgb(255,255,255);
+	margin-top:620px;
+}
+.companies-logo-container  /* STYLING COMPANIES LOGO CONTAINER */
+{ 
+	background-color:rgb(255,255,255);
+	width:100%;
+	height:290px;
+	position:relative;
+}
+.companies-logo-zurich /* STYLING COMPANIES LOGO */
+{
+	margin-left:245px;
+	text-decoration:none;
+}
+.companies-logo-nationwide /* STYLING COMPANIES LOGO */
+{
+	margin-left:102px;
+	text-decoration:none;
+}
+.companies-logo-geico /* STYLING COMPANIES LOGO */
+{
+	margin-left:85px;
+	text-decoration:none;
+}
+.companies-logo-progressive /* STYLING COMPANIES LOGO */
+{
+	margin-left:81px;
+	text-decoration:none;
+}
+.about-us-container /* STYLING ABOUT US CONTAINER */
+{  
+	position:relative;
+	width:100%;
+	height:550px;
+	margin-top:0px;
+	background-image:url('../Images/Section Info.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.about-us-heading /* STYLING ABOUT US HEADING */
+{ 
+	font-size:3.5rem;
+	color:rgb(255,255,255);
+	font-family:Helvetica;
+	text-decoration:underline;
+	font-weight:bold;
+	text-align:center;
+	margin-top:0px;
+	margin-bottom:29px;
+	padding-top:200px;
+}
+.about-us-info /* STYLING ABOUT US INFO */
+{  
+	font-family:Helvetica;
+	font-weight:bold;
+	color:white;
+	padding:0px;
+	margin:0px;
+	font-size:15px;
+	text-align:center;
+}
+#footer-information-container /* STYLING FOOTER INFORMATION CONTAINER */
+{ 
+	height:270px;
+	width:367px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:53px;
+}
+.footer-information-heading /* STYLING FOOTER INFORMATION HEADING */
+{ 
+	color:white;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-top:60px;
+	margin-left:83px;
+	text-align:center;
+	
+}
+.footer-information-list /* STYLING FOOTER INFORMATION LIST */
+{  
+	padding:0px;
+	margin-left:172px;
+	list-style-type:none;
+	font-size:14px;
+	margin-top:0px;
+	padding-top:27px;	
+}
+.footer-information-li /* STYLING FOOTER INFORMATION LIST ITEMS */
+{ 
+	padding:5px;
+}
+.footer-information-li a /* STYLING FOOTER INFORMATION LIST ANCHOR*/
+{ 
+	text-decoration:none;
+	color:white;
+	font-family:Helvetica;
+	font-weight:bold;
+}
+.footer-information-list a:hover  /* STYLING FOOTER INFORMATION LIST ANCHOR HOVER */
+{ 
+	color:#FA8072;
+}
+#footer-companies-linked-container /* STYLING COMPANIES LINKED CONTAINER */
+{  
+	height:270px;
+	width:388px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:400px;              
+}
+.footer-companies-linked-heading /* STYLING COMPANIES LINKED HEADING */
+{  
+	color:white;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-right:68px;
+	margin-top:60px;
+	text-align:center;
+}
+.footer-companies-linked-list /* STYLING COMPANIES LINKED LIST */
+{  
+	padding:0px;
+	margin-left:87px;
+	list-style-type:none;
+	font-size:14px;
+	margin-top:0px;
+	padding-top:27px;
+}
+
+.footer-companies-linked-list a:hover /* STYLING COMPANIES LINKED LIST ANCHOR ON HOVER EFFECT */
+{  
+	color:#FA8072;
+}
+.footer-companies-linked-li /* STYLING COMPANIES LINKED LIST ITEMS */
+{ 
+	padding:5px;
+}
+.footer-companies-linked-li a /* STYLING COMPANIES LINKED LIST ANCHOR  */
+{ 
+	text-decoration:none;
+	color:white;
+	font-family:Helvetica;
+	font-weight:bold;
+}
+#footer-contact-us-container /* STYLING CONTACT US CONTAINER */
+{  
+	height:320px;
+	width:488px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:811px;
+}
+.footer-contact-us-heading /* STYLING CONTACT US HEADING */
+{ 
+	color:white;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-top:60px;
+}
+.footer-contact-us-info-1 /* STYLING CONTACT US INFO 1 */
+{  
+	color:white;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-top:0px;
+	padding-top:27px;
+}
+.footer-contact-us-info-2  /* STYLING CONTACT US INFO 2 */
+{ 
+	color:white;
+	font-size:14px;	
+	font-family:Helvetica;
+	font-weight:bold;
+}
+
+.footer-contact-us-info-3 /* STYLING CONTACT US INFO 3 */
+{  
+	color:white;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+}
+.footer-contact-us-info-4 /* STYLING CONTACT US INFO 4 */
+{  
+	color:white;
+	padding-top:0px;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:14px;
+}
+.social-media-icon-container /* STYLING SOCIAL MEDIA ICON CONTAINER */
+{  
+	height:45px;
+	width:140px;
+	position:absolute;	
+}
+.social-media-icon-container a /* STYLING SOCIAL MEDIA ICON CONTAINER ANCHOR */
+{ 
+	text-decoration:none;
+	opacity:0.5;
+}
+.social-media-icon-container a:hover /* STYLING SOCIAL MEDIA ICON ANCHOR HOVER */
+{  
+	opacity:1;	
+}
+.social-media-img /* STYLING SOCIAL MEDIA ICON IMAGES */
+{ 
+	height:30px;
+	width:30px;
+	border-radius:20%;
+}
+.online-payment-logo-container /* STYLING ONLINE PAYMENT LOGO CONTAINER */
+{ 
+	height:55px;
+	width:207px;
+	position:absolute;
+	margin-left:265px;
+	margin-top:30px;	
+}
+.copyright /* STYLING COPYRIGHT DIV */
+{ 
+	position:absolute;
+	margin-top:295px;
+	color:white;
+	margin-left:550px;
+	font-family:Helvetica;
+	font-weight:bold;
+	margin-bottom:0px;
+	font-size:15px;
+}
+.lower-footer-column-1 /* STYLING SEPERATOR 1 */
+{ 
+	height:185px;
+	width:3px;
+	position:relative;
+	background-color:black;
+	opacity:0.2;
+	left:420px;
+	top:51px;
+}
+.lower-footer-column-2 /* STYLING SEPERATOR 2 */
+{ 
+	height:185px;
+	width:3px;
+	position:relative;
+	background-color:black;
+	opacity:0.2;
+	left:737px;
+	top:-140px;
+}
